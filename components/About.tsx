@@ -22,15 +22,15 @@ export default function About() {
                         <div className="relative h-[400px] md:h-[500px] rounded-2xl overflow-hidden border border-primary/20 shadow-2xl">
                             {/* Real gym photo */}
                             <img
-                                src="/praveen.png"
-                               alt="Praveen - Head Trainer at Dumbbell Den"
+                                src="/gym-dumbbells.jpg"
+                                alt="Professional gym equipment"
                                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                             />
                             {/* Gradient overlay */}
                             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
                             {/* Caption */}
                             <div className="absolute bottom-6 left-6 right-6">
-                               <p className="text-white font-semibold text-lg">Praveen - Your Fitness Guide</p>
+                              <p className="text-white font-semibold text-lg">Professional Training Equipment</p>
                             </div>
                         </div>
                     </motion.div>
@@ -84,4 +84,5 @@ export default function About() {
         </section>
     );
 }
+
 
