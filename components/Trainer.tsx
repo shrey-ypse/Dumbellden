@@ -36,7 +36,7 @@ export default function Trainer() {
                         <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-transparent" />
 
                         <div className="relative z-10">
-                            {/* Praveen's Photo */}
+                          {/* Praveen's Photo */}
 <motion.div
     whileHover={{ scale: 1.05 }}
     className="w-40 h-40 mx-auto mb-6 rounded-full overflow-hidden border-4 border-primary/30 shadow-2xl"
@@ -46,8 +46,7 @@ export default function Trainer() {
         alt="Praveen Kumar - Certified Fitness Trainer"
         className="w-full h-full object-cover"
     />
-</motion.div>>
-
+</motion.div>
                             <h3 className="text-3xl md:text-4xl font-display font-black mb-2">
                                 Praveen Kumar
                             </h3>
@@ -92,4 +91,5 @@ export default function Trainer() {
         </section>
     );
 }
+
 
